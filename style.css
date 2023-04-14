@@ -1,0 +1,136 @@
+/**@media only screen and (max-width:770px) {*/
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    width: 100%;
+    height: 100vh;
+    background: url(./cover/download.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .title {
+    font-family: cursive;
+    font-size: 20px;
+    color: #fff;
+    margin:0;
+  }  
+  div.toggle {
+    position: absolute;
+    top: 10px;
+    margin-right: 10px;
+    left: 90%;
+  }
+  #navbar {
+    position: absolute;
+    z-index: 0;
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    text-align: left;
+    padding-left: 30px;
+    left: -100%;
+    top: 0px;
+    transition: 4s;
+    color: green;
+  }
+  #navbar.active {
+    left: 0px;
+    position: absolute;
+  }
+  li {
+  list-style: none;
+  font-size: 40px;
+  padding-top: 40px;
+  }
+  
+  ul li a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  }
+  .content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 10px 40px 20px;
+  }
+  #wlc {
+  font-family: Franklin Gothic Medium ;
+  font-size: 25px;
+  color: #fff;
+  padding: 20px 15px;
+  width: 150px;
+  } 
+  .info {
+    font-size: 40px;
+    font-weight: bold;
+    top: 200px;
+    color: whitesmoke;
+  }
+  .icons {
+    display: flex;
+    width: 70%;
+    height: 169px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  }
+  .icn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  }
+  #cut{
+  font-size: 30px;
+  color: green;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  }
+  #times {
+  font-size: 40px;
+  position: absolute;
+  color: green;
+  display: none;
+  margin-right: 20px;
+  }
+  #bar {
+  font-size: 40px;
+  position: absolute;
+  color: green;
+  display: block;
+  margin-right: 20px;
+  }
+  #times.active {
+  display: block;
+  }
+  #bar.active {
+  display: none;
+  }
+  .submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    background: red ;
+    justify-content: center;
+    margin: auto;
+  }
+  .submit:hover {
+    background: green;
+    color: black;
+    transition: 1s ease-in-out;
+    transform: scale(0.99);
+    border: 2px dashed yellow;
+  }
+  #navbar ul li a:hover {
+    color: red;
+    tranaform: scale(0.99)
+  }
